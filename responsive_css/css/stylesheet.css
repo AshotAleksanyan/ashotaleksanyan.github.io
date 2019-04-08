@@ -317,8 +317,12 @@ text-decoration: none;
 color: #ffffff;
 }
 .gallery_main_first_img:hover{
+    -webkit-box-shadow: 0 0 5px 5px #948c8c;
     box-shadow: 0 0 5px 5px #948c8c;
-    transform: rotate3d(0, 1, 0.5, 360deg);
+    -webkit-transform: rotate3d(0, 1, 0.5, 360deg);
+            transform: rotate3d(0, 1, 0.5, 360deg);
+    -webkit-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
     transition: 2s ease-in-out;
 }
 h5>i{
