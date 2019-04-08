@@ -1,0 +1,205 @@
+@media only screen and (max-width: 720px) and (min-width: 320px) {
+
+    .best_features{
+        height: 72vh;
+    }
+    .best_features_aperture{
+        height: 45vh;
+    }
+   .gallery_main:nth-child(2) button{
+        width: 35vw;
+        margin: 0 25%;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+    .jessica_Clark + button, .contacts_left button {
+        width: 20vw;
+        margin: 0 37%;
+    }
+
+    .jessica_Clark a {
+        font-size: 2vmax;
+    }
+
+    .poster {
+        height: 70vh;
+    }
+
+    .gallery_main > div > img {
+        width: 70vw;
+    }
+
+    .contacts {
+        height: auto;
+    }
+
+    .contacts_main {
+        height: auto;
+        display: block;
+    }
+
+    .contacts > div > div {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .contacts_left > form > div {
+        padding-left: 10%;
+    }
+
+    .contacts_left > form > div > input, textarea {
+        width: 80%;
+    }
+
+    .contacts_right > div > div {
+        /*padding-left: 1%;*/
+    }
+
+    .contacts_right > div > div > p {
+        font-size: 1.8vmax
+    }
+
+    .contacts_right > div > div:last-child {
+        float: right;
+    }
+
+    .contacts_right > div > div > p:last-child {
+        text-align: right;
+        width: 100%;
+    }
+
+    .contacts_right > div > div:first-child > p {
+        text-align: left;
+    }
+
+    .contacts_right > div > div:nth-child(2) {
+        margin-left: 2%;
+    }
+
+    .contacts_right > div > div:nth-child(2) > p {
+        text-align: right;
+    }
+
+    .footer_row_first {
+        display: inline-flex;
+    }
+
+    .footer_row_first_left {
+        width: 55%;
+    }
+
+    .footer_row_first_left > p {
+        font-size: 2vmax;
+        text-align: left;
+        float: left;
+        padding-left: 5%;
+    }
+
+    .footer_row_first_right {
+        width: 45%;
+    }
+
+    .footer_row_first_right > ul > li > a > i {
+        font-size: 2vmax;
+    }
+
+    .footer_row_first_right > ul {
+        margin: auto 10%;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footer_row_second {
+        display: none;
+    }
+
+    .footer_row_third > p {
+        font-size: 2vmax;
+    }
+
+
+    /*menu responsive part*/
+    nav {
+        width: 25% !important;
+        height: 100vh !important;
+        position: relative;
+        transform: translateX(-100%);
+        transition: all 1500ms linear;
+
+    }
+
+    nav::after {
+        content: '\2630';
+        position: absolute;
+        color: #ffffff;
+        top: 0.5%;
+        right: -14%;
+        font-weight: 900;
+        font-size: 25px;
+        display: block;
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+        transition: all 1500ms linear;
+    }
+
+    nav:hover {
+        transform: translateX(0);
+    }
+
+    nav:hover::after {
+        opacity: 0;
+    }
+
+    .header_menu_left {
+        width: 100%;
+        height: 100%;
+        float: right;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header_menu_left > li {
+        display: block;
+        height: calc(100% / 6);
+        width: 100%;
+        background: #24355C;
+        margin-bottom: 2%;
+        cursor: pointer;
+        text-align: center;
+        line-height: 15vh;
+        opacity: 0.95;
+        transition: all .2s linear;
+    }
+
+    .header_menu_left > li > a {
+        font-size: 2.5vmax;
+    }
+
+    .header_menu_left > li:hover {
+        background: #2e6e89;
+        opacity: .82;
+        transform: translateX(15%);
+    }
+}
+
+
+@media only screen and (max-width: 960px) and (min-width: 720px) {
+
+  .footer_row_second{
+      display:none;
+  }
+    .jessica_Clark a {
+        color: #000000;
+        font-weight: 700;
+        font-size: 1.7vmax;
+    }
+}
+footer{
+    height: auto;
+}
