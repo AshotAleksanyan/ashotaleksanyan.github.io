@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="../css/search.css">-->
+    <link rel="stylesheet" href="../css/query/jquery.colorpickle.min.css">
+    <title>Products</title>
+</head>
+<body>
+<div id="productShower" class="product-shower">
+<span class="close-product-shower"><i class="fas fa-times close-shower"></i></span>
+    <div id="productShowerImage" class="product-shower-image">
+        <img src="" alt="Image">
+    </div>
+</div>
+<header>
+    <nav>
+        <ul id="menuItems" class="menuItems">
+            <li><a href="../index.html"><img src="../files/logo.jpg" id="logo" class="logo" alt="image"></a></li>
+            <li><a href="../index.html">ABOUT US</a></li>
+            <li class="checkHeader"><a href="products.html">PRODUCTS</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACTS</a></li>
+        </ul>
+    </nav>
+    <div class="menuRightSide">
+        <ul class="menuSocial">
+            <!--background edit-->
+            <li class="edit-background"><a href="#" data-toggle="modal" data-target="#backgroundModal"><i
+                    class="fas fa-paint-brush"></i> </a></li>
+            <!-- end background edit-->
+
+            <li><a href="https://www.instagram.com/hannles_official/" target="blank"><i
+                    class="fab fa-instagram social-rotate"></i></a></li>
+            <li><a href="https://www.facebook.com/HannLesHandmade/" target="_blank"><i
+                    class="fab fa-facebook-square social-rotate"></i></a></li>
+            <li class="search_li_a"><input title="" type="text" id="search_input"><i class="fas fa-search  searchGlobal"
+                                                                                     id="search_global"></i></li>
+        </ul>
+    </div>
+</header>
+<div class="container-fluid">
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 card-parent" data-name="dramapanak">
+            <div class="card">
+                <img src="../files/20190531_230851.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">ID: <span>1</span></p>
+                    <p>Name:</p>
+                    <p>Description:</p>
+                    <p>Quantity:</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 card-parent" data-name="goti">
+            <div class="card">
+                <img src="../files/20190504_220058.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">ID: <span>1</span></p>
+                    <p>Name:</p>
+                    <p>Description:</p>
+                    <p>Quantity:</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 card-parent" data-name="dramapanak">
+            <div class="card">
+                <img src="../files/20190322_192441.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">ID: <span>1</span></p>
+                    <p>Name:</p>
+                    <p>Description:</p>
+                    <p>Quantity:</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 card-parent" data-name="kakhazard">
+            <div class="card">
+                <img src="../files/20181217_085729.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">ID: <span>1</span></p>
+                    <p>Name:</p>
+                    <p>Description:</p>
+                    <p>Quantity:</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 card-parent" data-name="payusak">
+            <div class="card">
+                <img src="../files/20190330_223727.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">ID: <span>1</span></p>
+                    <p>Name:</p>
+                    <p>Description:</p>
+                    <p>Quantity:</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 card-parent" data-name="dramapanak">
+            <div class="card">
+                <img src="../files/20190124_090335.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">ID: <span>1</span></p>
+                    <p>Name:</p>
+                    <p>Description:</p>
+                    <p>Quantity:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--background modal-->
+<div class="modal fade" id="backgroundModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="exampleModalLabel">Change background color</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row justify-content-center">
+                    <div class="col-12" id="jqueryColorPicker"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end background modal-->
+<footer>
+    <div class="footerItems" id="footerItems">
+
+    </div>
+    <div class="developer" id="developer">
+        <p>© <span id="currentYear"></span> Copyright: <a href="https://www.facebook.com/" target="_blank">Ashot
+            Aleksanyan</a></p>
+        <p>Created with <i class="fas fa-heartbeat"></i></p>
+    </div>
+</footer>
+<script src="../js/JQ.js"></script>
+<script src="../js/jquery.colorpickle.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function () {
+        $('.container-fluid').css('background',localStorage.getItem('bgColor')?localStorage.getItem('bgColor'):'#fff');
+        $('#jqueryColorPicker').colorpickle({
+            "showOk": true,
+            "textOk": "Save",
+            'width': '100%',
+            "onChange": function () {
+                var color = $('#backgroundModal').find('.hexValue').val();
+                $('.container-fluid').css('background',color);
+            },
+            "onOk": function () {
+                var color = $('#backgroundModal').find('.hexValue').val();
+                localStorage.removeItem('bgColor');
+                localStorage.setItem('bgColor',color);
+                $('.container-fluid').css('background',localStorage.getItem('bgColor'));
+                $('#backgroundModal').modal('hide');
+            },
+        });
+
+        $('#search_input').on('input',function () {
+            var search = $(this).val().toLowerCase();
+            $('.container > .row').children().each(function (index,element) {
+                var el =$(element).attr('data-name').toLowerCase();
+            if(el.indexOf(search)<0){
+                $(element).hide();
+            }else{
+                $(element).show();
+            }
+         })
+        });
+        // var x = [{
+        //     'src': "https://www.njlifehacks.com/wp-content/uploads/2017/04/how-to-do-something-consistently.png",
+        //     'id': 355451,
+        //     'name': "dramapanak kaputy kashvic",
+        //     'description': "dofj4mipfjgmpjg",
+        //     'quantity': 10,
+        // },{
+        //     'src': "https://www.njlifehacks.com/wp-content/uploads/2017/04/how-to-do-something-consistently.png",
+        //     'id': 1,
+        //     'name': "tandz",
+        //     'description': "dofj4mipfjgmpjg",
+        //     'quantity': 5410,
+        // }];
+        // var product ={
+        //     'dramapanak': {
+        //         'src': 'https://www.njlifehacks.com/wp-content/uploads/2017/04/how-to-do-something-consistently.png',
+        //         'id': 1536456,
+        //         'name': "dramapanak kaputy kashvic",
+        //         'description': "dofj4mipfjgmpjg",
+        //         'quantity': 10,
+        //     }
+        // };
+        // for (var i = 0;i<x.length;i++){
+        //    var card = $(' <div class="col-12 col-md-6 col-lg-4 card-parent">\n' +
+        //        '<div class="card"><img src="'+x[i]['src']+'" class="card-img-top" alt="...">\n' +
+        //        '<div class="card-body"><p class="card-text">ID: <span>'+x[i]['id']+'</span></p>\n' +
+        //        '<p>Name: '+x[i]['name']+'</p><p>Description: '+x[i]['description']+'</p><p>Quantity: '+x[i]['quantity']+'</p></div></div></div>') ;
+        //    $('.container> .row').append(card);
+        // }
+    })
+</script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/hannles.js"></script>
+<script src="../js/products.js"></script>
+</body>
+</html>

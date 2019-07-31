@@ -1,0 +1,36 @@
+@-webkit-keyframes socialRotate {
+    from{-webkit-transform: rotate(0);transform: rotate(0)}
+    to{-webkit-transform: rotate(-360deg);transform: rotate(-360deg)}
+}
+@keyframes socialRotate {
+    from{-webkit-transform: rotate(0);transform: rotate(0)}
+    to{-webkit-transform: rotate(-360deg);transform: rotate(-360deg)}
+}
+@-webkit-keyframes heart {
+    0%{-webkit-transform: scale(1);transform: scale(1)}
+    50%{-webkit-transform: scale(1.3);transform: scale(1.3)}
+    100%{-webkit-transform: scale(1);transform: scale(1)}
+}
+@keyframes heart {
+    0%{-webkit-transform: scale(1);transform: scale(1)}
+    50%{-webkit-transform: scale(1.3);transform: scale(1.3)}
+    100%{-webkit-transform: scale(1);transform: scale(1)}
+}
+@-webkit-keyframes logoRotate {
+    0%{-webkit-transform: translateY(15px);transform: translateY(15px)}
+    50%{-webkit-transform: translateY(30px);transform: translateY(30px)}
+    100%{-webkit-transform: translateY(0);transform: translateY(0)}
+}
+@keyframes logoRotate {
+    0%{-webkit-transform: translateY(15px);transform: translateY(15px)}
+    50%{-webkit-transform: translateY(30px);transform: translateY(30px)}
+    100%{-webkit-transform: translateY(0);transform: translateY(0)}
+}
+@-webkit-keyframes showInput {
+    0%{width: 28px}
+    100%{width: 250px}
+}
+@keyframes showInput {
+    0%{width: 28px}
+    100%{width: 250px}
+}

@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/query/jquery.colorpickle.min.css">
+
+    <link rel="stylesheet" href="../css/query/galleryQuery.css">
+    <!--<link rel="stylesheet" href="../css/aos.scss">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Gallery</title>
+    <style>
+        .owl-carousel img {
+            width: 120px;
+            height: 160px;
+        }
+
+        .owl-carousel > .owl-nav {
+            width: 10%;
+            margin: 1% auto;
+            text-align: center;
+            font-weight: 900;
+            font-size: 30px;
+        }
+
+        .owl-nav > button:first-child {
+            margin-right: 5px;
+        }
+
+        .owl-nav > button:last-child {
+            margin-left: 5px;
+        }
+
+        .owl-dots {
+            text-align: center;
+        }
+
+        button.owl-dot {
+            display: inline-block !important;
+            padding: 0 !important;
+            font: inherit !important;
+            width: 10px !important;
+            height: 10px !important;
+            z-index: 9999999999 !important;
+            background: #968787 !important;
+            margin: 0.5% !important;
+            border-radius: 50% !important;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul id="menuItems" class="menuItems">
+            <li><a href="../index.html"><img src="../files/logo.jpg" id="logo" class="logo" alt="image"></a></li>
+            <li><a href="../index.html">ABOUT US</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li class="checkHeader"><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACTS</a></li>
+        </ul>
+    </nav>
+    <div class="menuRightSide">
+        <ul class="menuSocial">
+            <!--background edit-->
+            <li class="edit-background"><a href="#" data-toggle="modal" data-target="#backgroundModal"><i
+                    class="fas fa-paint-brush"></i> </a></li>
+            <!-- end background edit-->
+
+            <li><a href="https://www.instagram.com/hannles_official/" target="blank"><i
+                    class="fab fa-instagram social-rotate"></i></a></li>
+            <li><a href="https://www.facebook.com/HannLesHandmade/" target="_blank"><i
+                    class="fab fa-facebook-square social-rotate"></i></a></li>
+            <li class="search_li_a"><input title="" type="text" id="search_input"><i class="fas fa-search  searchGlobal"
+                                                                                     id="search_global"></i></li>
+        </ul>
+    </div>
+</header>
+<div class="container-fluid">
+<div class="container">
+    <div class="row">
+        <div class="owl-carousel owl-rtl owl-dots" id="tandz">
+            <div class="item"><img src="../files/20190124_090335.jpg" alt="Image"></div>
+            <div class="item"><img src="../files/20190330_223727.jpg" alt="Image"></div>
+            <div class="item"><img src="../files/20181217_085729.jpg" alt="Image"></div>
+            <div class="item"><img src="../files/20190510_231541.jpg" alt="Image"></div>
+            <div class="item"><img src="../files/20190504_220058.jpg" alt="Image"></div>
+            <div class="item"><img src="../files/20190203_164225.jpg" alt="Image"></div>
+            <div class="item"><img src="../files/1499420c7edb.jpg" alt="Image"></div>
+        </div>
+    </div>
+    <div class="row aos-customize-media">
+        <div class="col-sm-12" data-name="dramapanak">
+            <div data-aos="fade-right"  class="col-12 col-md-6 col-sm-6 item aos-div-right float-sm-left" >
+                <img src="../files/20190531_230851.jpg" alt="Image">
+                <p>1:</p>
+            </div>
+        </div>
+        <div class="col-sm-12" data-name="goti">
+            <div data-aos="fade-left"  class="col-12 col-md-6 col-sm-6 item aos-div-left float-sm-right" >
+                <img src="../files/20190531_230851.jpg" alt="Image">
+                <p>2:</p>
+            </div>
+        </div>
+        <div class="col-sm-12" data-name="kakhazard">
+            <div data-aos="fade-right"  class="col-12 col-md-6 col-sm-6 item aos-div-right float-sm-left" >
+                <img src="../files/20190531_230851.jpg" alt="Image">
+                <p>3:</p>
+            </div>
+        </div>
+        <div class="col-sm-12" data-name="kakhazard">
+            <div data-aos="fade-left"  class="col-12 col-md-6 col-sm-6 item aos-div-left float-sm-right" >
+                <img src="../files/20190531_230851.jpg" alt="Image">
+                <p>4:</p>
+            </div>
+        </div>
+        <div class="col-sm-12" data-name="goti">
+            <div data-aos="fade-right"  class="col-12 col-md-6 col-sm-6 item aos-div-right float-sm-left" >
+                <img src="../files/20190531_230851.jpg" alt="Image">
+                <p>5:</p>
+            </div>
+        </div>
+        <div class="col-sm-12" data-name="kakhazard">
+            <div data-aos="fade-left"  class="col-12 col-md-6 col-sm-6 item aos-div-left float-sm-right" >
+                <img src="../files/20190531_230851.jpg" alt="Image">
+                <p>6:</p>
+            </div>
+        </div>
+        <div class="col-sm-12" data-name="dramapanak">
+            <div data-aos="fade-right"  class="col-12 col-md-6 col-sm-6 item aos-div-right float-sm-left" >
+                <img src="../files/20190531_230851.jpg" alt="Image">
+                <p>7:</p>
+            </div>
+        </div>
+        <div class="col-sm-12" data-name="kakhazard">
+            <div data-aos="fade-left"  class="col-12 col-md-6 col-sm-6 item aos-div-left float-sm-right" >
+                <img src="../files/20190531_230851.jpg" alt="Image">
+                <p>8:</p>
+            </div>
+        </div>
+        <div class="col-sm-12" data-name="kakhazard">
+            <div data-aos="fade-right"  class="col-12 col-md-6 col-sm-6 item aos-div-right float-sm-left" >
+                <img src="../files/20190531_230851.jpg" alt="Image">
+                <p>Name:</p>
+            </div>
+        </div>
+        <div class="col-sm-12" data-name="goti">
+            <div data-aos="fade-left"  class="col-12 col-md-6 col-sm-6 item aos-div-left float-sm-right" >
+                <img src="../files/20190531_230851.jpg" alt="Image">
+                <p>9:</p>
+            </div>
+        </div>
+        <div class="col-sm-12" data-name="kakhazard">
+            <div data-aos="fade-right"  class="col-12 col-md-6 col-sm-6 item aos-div-right float-sm-left" >
+                <img src="../files/20190531_230851.jpg" alt="Image">
+                <p>10:</p>
+            </div>
+        </div>
+        <div class="col-sm-12" data-name="kakhazard">
+            <div data-aos="fade-left"  class="col-12 col-md-6 col-sm-6 item aos-div-left float-sm-right" >
+                <img src="../files/20190531_230851.jpg" alt="Image">
+                <p>11:</p>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</div>
+<!--background modal-->
+<div class="modal fade" id="backgroundModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="exampleModalLabel">Change background color</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row justify-content-center">
+                    <div class="col-12" id="jqueryColorPicker"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end background modal-->
+<footer>
+    <div class="footerItems" id="footerItems">
+
+    </div>
+    <div class="developer" id="developer">
+        <p>© <span id="currentYear"></span> Copyright: <a href="https://www.facebook.com/" target="_blank">Ashot
+            Aleksanyan</a></p>
+        <p>Created with <i class="fas fa-heartbeat"></i></p>
+    </div>
+</footer>
+<script src="../js/JQ.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/hannles.js"></script>
+<!--<script src="../js/aos.js"></script>-->
+<script>
+    $(document).ready(function () {
+        $("#tandz").owlCarousel({
+            loop: true,
+            items: 7,
+            nav: true,
+            autoplay: true,
+            margin: 10,
+            responsiveClass: true,
+            slideSpeed: 2000,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 3,
+                    nav: false,
+                    dots: true,
+                },
+                1000: {
+                    items: 6,
+                }
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+    AOS.init({
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 2500, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    })
+</script>
+<script src="../js/jquery.colorpickle.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function () {
+        $('.container-fluid').css('background',localStorage.getItem('bgColor')?localStorage.getItem('bgColor'):'#fff');
+        $('#jqueryColorPicker').colorpickle({
+            "showOk": true,
+            "textOk": "Save",
+            'width': '100%',
+            "onChange": function () {
+                var color = $('#backgroundModal').find('.hexValue').val();
+                $('.container-fluid').css('background',color);
+            },
+            "onOk": function () {
+                var color = $('#backgroundModal').find('.hexValue').val();
+                localStorage.removeItem('bgColor');
+                localStorage.setItem('bgColor',color);
+                $('.container-fluid').css('background',localStorage.getItem('bgColor'));
+                $('#backgroundModal').modal('hide');
+            },
+        });
+        $('#search_input').on('input',function () {
+            var search = $(this).val().toLowerCase();
+            $('.container > .aos-customize-media > .col-sm-12').each(function (index,element) {
+                var el =$(element).attr('data-name').toLowerCase();
+                console.log(index);
+                if(search.length>0){
+                    if(el.indexOf(search)>-1){
+                        $(element).children('.aos-init').addClass('aos-animate');
+                        $(element).show();
+                    }else{
+                        $(element).hide();
+                        $(element).children('.aos-init').removeClass('aos-animate');
+                    }
+                    console.log($(element));
+                }else{
+                    $(element).show();
+                    $(element).children('.aos-init').removeClass('aos-animate');
+                }
+            })
+        });
+
+    })
+</script>
+</body>
+</html>

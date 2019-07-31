@@ -1,0 +1,280 @@
+@import "animations.css";
+@import "search.css";
+body {
+    font-family: Roboto, sans-serif;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    overflow-x: hidden;
+    /*background: url("../files/1499420c7edb.jpg");*/
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 8px #556274;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #556274;
+    outline: 4px solid #6c757d;
+}
+
+/*******header********/
+header {
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    display: inline-flex;
+    background-image: url("../files/1499420c7edb.jpg");
+}
+
+header nav {
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menuItems {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.menuItems li {
+    width: 19%;
+    height: calc(100% - 3px);
+    margin: 0 1% 0 0;
+    padding: 0;
+    text-align: center;
+    line-height: 10vh;
+}
+.menuItems > li >a {
+    margin: 0;
+    padding: 0;
+    display: contents;
+}
+.checkHeader{
+    border-bottom: 3px solid #FFFFFF;
+}
+.checkHeader>a{
+    font-size: 1.4vmax !important;
+}
+.menuItems li a {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 1.2vmax;
+    color: #FFFFFF;
+    /*font-weight: 900;*/
+    text-decoration: none;
+}
+
+.logo {
+    width: 5vw;
+    height: 9.3vh;
+    margin: 0;
+    padding: 0;
+    border-radius: 30%;
+    animation: logoRotate 0.5s;
+}
+
+.menuRightSide {
+    width: 30%;
+    margin: auto 5%;
+}
+.menuSocial{
+    height: 35px;
+    padding-top: 5px;
+}
+.menuSocial li {
+    display: inline-flex;
+    list-style-type: none;
+    margin: auto 15px;
+    font-size: 1.7vmax;
+    float: right;
+}
+
+.menuSocial li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.search_li_a{
+    width: 12vw;
+    position: relative;
+    margin: 0;
+    height: 5vh;
+}
+.search_li_a>input{
+    padding: -1px 13px;
+    position: absolute;
+    right: -110%;
+    width: 100%;
+    height: 80%;
+    margin: 1% 0;
+}
+.searchGlobal{
+    position: absolute;
+    right: 5px;
+    top: 16%;
+    cursor: pointer;
+}
+/*.social-rotate{*/
+    /*animation: socialRotate 0.8s;*/
+/*}*/
+.social-rotate:hover{
+    animation: heart 0.8s infinite;
+}
+
+/*Molad title*/
+.modal-title{
+    width: 100%;
+}
+/*end Molad title*/
+
+/***************header end*********/
+
+
+/************main**********/
+/*main {*/
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+/*.mainFace{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+.productsMainFace{
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    /*background: #ffa739;*/
+}
+.galleryMainFace{
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    /*background: #ff295a;*/
+}
+.row{
+    padding: 2vh 0;
+}
+.container{
+    height: auto;
+    /*background-color: #45a049;*/
+    padding-bottom: 20px;
+}
+.bd-example{
+    /*margin:5vh 0;*/
+}
+.d-block{
+    height: 60vh;
+    width: 84.1vw!important;
+    object-fit: cover;
+    object-position: inherit;
+
+}
+.carousel{
+    width: 100%;
+    height: 60vh;
+    /*background-color: #0f6674;*/
+}
+.carousel-item>img{
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+.index-carusel{
+    box-shadow: 0 0 10px 5px #a5a5a5;
+}
+
+.welcoming_row{
+    height: auto;
+    background-image: url(../files/background_1600x.jpg);
+    background-size: cover;
+
+}
+.welcoming_row p,.welcoming_row h2{
+    color: #ffffffc2;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/************end of main**********/
+
+
+/************footer**********/
+footer {
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    background-color: #191816;
+}
+.footerItems{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+
+}
+.footerItems ul{
+    margin: 0;
+    padding: 0;
+}
+.footerItems ul li{
+    display: inline-flex;
+    color: white;
+    margin: auto 20px;
+}
+.footerItems ul li a{
+    color: white;
+    font-size: 0.9vmax;
+
+}
+.developer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+.developer p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 0.8vmax;
+    height: 50%;
+}
+.fa-heartbeat{
+    color: red;
+    animation: heart 0.4s infinite;
+}
+
+#currentYear+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+/************end of footer**********/
+.welcoming_row {
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .menuSocial{
+        height: 35px;
+        padding-top: 5px;
+        display: inline-flex;
+    }
+}

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 576px) {
+    body{
+        width: 100vw!important;;
+        margin: 0!important;
+        padding: 0!important;
+    }
+    .row{
+        margin: 0!important;
+        padding: 0!important;
+    }
+.aos-customize-media>div>div{
+    min-width: 100%;
+
+}
+    .aos-customize-media>div{
+        width: 100%;
+        margin: 2% auto;
+    }
+}

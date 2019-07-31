@@ -1,0 +1,166 @@
+
+.row {
+    padding: 2vh 0;
+}
+
+.container {
+    height: auto;
+    /*background-color: #45a049;*/
+    padding-bottom: 20px;
+}
+
+.bd-example {
+    /*margin:5vh 0;*/
+}
+
+.d-block {
+    height: 60vh;
+    width: 84.1vw !important;
+    object-fit: cover;
+    object-position: inherit;
+
+}
+
+.carousel {
+    width: 100%;
+    height: 60vh;
+    /*background-color: #0f6674;*/
+}
+
+.carousel-item > img {
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+
+.index-carusel {
+    box-shadow: 0 0 10px 5px #a5a5a5;
+}
+
+.card {
+    min-width: 300px !important;
+    background: #81d8ff;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.card p {
+    margin: 0;
+}
+
+.card-parent {
+    padding: 10px !important;
+
+}
+
+.aos-div-right {
+    width: 40%;
+    height: 250px;
+    /*background-color: #74415c;*/
+    text-align: center;
+    font-size: 30px;
+    min-width: 300px;
+    max-width: 42%;
+    margin: 4%;
+}
+
+.aos-div-left {
+    width: 40%;
+    height: 250px;
+    /*background-color: #0f6674;*/
+    text-align: center;
+    font-size: 30px;
+    min-width: 300px;
+    max-width: 42%;
+    margin: 4%;
+}
+
+.row img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row p {
+    margin: 0;
+    padding: 0;
+}
+
+.product-shower {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    z-index: 1000;
+    background-color: #1b1e21c9;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.close-product-shower {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    text-align: center;
+}
+
+.close-shower {
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.product-shower-image {
+    width: 50vw;
+    height: 76vh;
+    background-color: #FFFFFF;
+    margin: 12vh auto;
+}
+
+.product-shower-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    /*object-position: center;*/
+}
+
+@media screen and (max-width: 600px) {
+    .owl-carousel > .owl-nav {
+        width: 12% !important;
+    }
+
+
+    .menuSocial {
+        height: 35px;
+        display: inline-flex;
+        width: 100%;
+        transform: rotate(180deg);
+        padding: 0;
+
+    }
+    .menuSocial li {
+        display: inline-flex;
+        list-style-type: none;
+        margin: 1% 4%;
+        font-size: 1.7vmax;
+        float: right;
+        transform: rotate(-180deg);
+    }
+   .searchGlobal{
+       line-height: 20px!important;
+   }
+}

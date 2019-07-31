@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/jquery.colorpickle.min.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="../css/search.css">-->
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contacts</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul id="menuItems" class="menuItems">
+            <li><a href="../index.html"><img src="../files/logo.jpg" id="logo" class="logo" alt="image"></a></li>
+            <li><a href="../index.html">ABOUT US</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li class="checkHeader"><a href="contact.html">CONTACTS</a></li>
+        </ul>
+    </nav>
+    <div class="menuRightSide">
+        <ul class="menuSocial">
+            <!--background edit-->
+            <li class="edit-background"><a href="#" data-toggle="modal" data-target="#backgroundModal"><i
+                    class="fas fa-paint-brush"></i> </a></li>
+            <!-- end background edit-->
+            <li><a href="https://www.instagram.com/hannles_official/" target="blank"><i
+                    class="fab fa-instagram social-rotate"></i></a></li>
+            <li><a href="https://www.facebook.com/HannLesHandmade/" target="_blank"><i
+                    class="fab fa-facebook-square social-rotate"></i></a></li>
+
+        </ul>
+    </div>
+</header>
+<div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h3>Feedback</h3>
+
+                    <div class="container">
+                        <form action="#" novalidate id="feedbackForm">
+                            <p class="resultMessageFullName"></p>
+                            <label for="fname"><i class="fas fa-user-alt"> Your Full Name</i></label>
+                            <input type="text" id="fname" name="fullName" required placeholder="Your full name..">
+
+                            <p class="resultMessageEmail"></p>
+                            <label for="email"><i class="fas fa-envelope"></i> Your email</label>
+                            <input type="email" id="email" name="email" required placeholder="Your email..">
+
+                            <p class="resultMessageAge"></p>
+                            <label for="feedbackAge">Your age</label>
+                            <select id="feedbackAge" name="age">
+
+                            </select>
+                            <p class="resultMessageSubject"></p>
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" required placeholder="Write something.."
+                                      style="height:200px"></textarea>
+
+                            <input type="submit" value="Submit">
+                            <p class="ok"></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12  col-md-6">
+                <div class="mainRight">
+                    <p class="message order-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aperiam deleniti
+                        doloribus
+                        officiis quo rerum. A accusamus autem dignissimos, dolore eligendi, est, obcaecati omnis
+                        qui reiciendis saepe sed voluptas.
+                    </p>
+                    <div class="order-1">
+                        <h2>OUR CONTACTS </h2>
+                        <p><i class="fas fa-home"></i> New York, NY 10012, US</p>
+                        <p><i class="fas fa-envelope"></i> info@example.com</p>
+                        <p><i class="fas fa-phone"></i> +374 (93)035556</p>
+                        <ul class="socialIcons">
+                            <li><a href="https://www.instagram.com/hannles_official/" target="blank"><i
+                                    class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/HannLesHandmade/" target="_blank"><i
+                                    class="fab fa-facebook-square"></i></a></li>
+                        </ul>
+<!---->
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="modal fade" id="backgroundModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="exampleModalLabel">Change background color</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row justify-content-center">
+                    <div class="col-12" id="jqueryColorPicker"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footerItems" id="footerItems">
+
+    </div>
+    <div class="developer" id="developer">
+        <p>© <span id="currentYear"></span> Copyright: <a href="https://www.facebook.com/" target="_blank">Ashot
+            Aleksanyan</a></p>
+        <p>Created with <i class="fas fa-heartbeat"></i></p>
+    </div>
+    <!--background modal-->
+
+    <!--end background modal-->
+</footer>
+<script src="../js/JQ.js"></script>
+<script src="../js/jquery.colorpickle.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function () {
+        $('.container-fluid').css('background', localStorage.getItem('bgColor') ? localStorage.getItem('bgColor') : '#fff');
+        $('#jqueryColorPicker').colorpickle({
+            "showOk": true,
+            "textOk": "Save",
+            'width': '100%',
+            "onChange": function () {
+                var color = $('#backgroundModal').find('.hexValue').val();
+                $('.container-fluid').css('background', color);
+            },
+            "onOk": function () {
+                var color = $('#backgroundModal').find('.hexValue').val();
+                localStorage.removeItem('bgColor');
+                localStorage.setItem('bgColor', color);
+                $('.container-fluid').css('background', localStorage.getItem('bgColor'));
+                $('#backgroundModal').modal('hide');
+            },
+        });
+    })
+</script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/hannles.js"></script>
+</body>
+</html>
